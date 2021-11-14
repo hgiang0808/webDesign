@@ -1,6 +1,6 @@
 body {
 	margin: 0 auto;
-	font-family: 'Google Sans';
+	font-family: 'sans-serif';
 }
 ul {
 	list-style-type: none;
@@ -15,35 +15,12 @@ li a:hover {
 a {
 	text-decoration: none;
 }
-div.nav1 {
-	height: 35px;
-	background-color: #000000;
-}
-div.nav1 ul li:nth-child(2) a {
-	float: right;
-}
-div.nav1 ul li:nth-child(3) a {
-	float: right;
-}
-form {
-	display: inline;
-	float: right;
-}
-div.nav1 a {
-	color: white;
-	padding: 0 15px;
-}
-div.nav2 {
-	text-align: center;
-	background-color: #3A54B4;
-}
-div.nav2 a {
-	color: white;
-	padding: 8px 20px;
-}
 main {
 	margin-left: 100px;
 }
+
+
+
 div.products {
 	box-sizing: border-box;
 	float: left;
