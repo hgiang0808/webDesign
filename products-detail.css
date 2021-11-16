@@ -26,7 +26,8 @@ div.productImage img {
 	width: 50%;
 }
 .carousel-indicators {
-	margin-bottom: 0 !important;
+	margin-bottom: 0;
+	z-index: 1;
 }
 .configuration {
 	border: 1px solid #E2DFDF;
@@ -177,8 +178,11 @@ i {
 	font-size: 15px;
 }
 button {
-	cursor: pointer;
 	transition-duration: 0.4s;
+	width: 100%;
+}
+.see-more button:hover {
+	font-weight: bold;
 }
 .buy button {
 	background-color: #CB1C22;
@@ -187,6 +191,7 @@ button {
 	width: 100%;
 	margin: 2px 0;
 	height: 50px;
+	line-height: 19px;
 }
 .buy-now button:hover {
 	background-color: #A40F0F;
@@ -196,6 +201,9 @@ button {
 }
 .buy strong {
 	font-size: 16px;
+}
+.buy-btn {
+	padding-top: 5px;
 }
 .installment button, .installment-card button{
 	background-color: #1F4DA0;
