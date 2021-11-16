@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/asscets/css/log-reg-page.css">
-    <link rel="stylesheet" href="/asscets/icon/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="asscets/css/log-reg-page.css">
+    <link rel="stylesheet" href="./asscets/icon/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="login-page.html">
+    <script src="asscets/javascript/dangky.js"></script>
     <title>Đăng Ký</title>
 </head>
 <body>
@@ -56,59 +57,59 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div class="formlogin">
-            <div class="formlogin_container">
-                <div class="formlogin_header">
-                    <h3 class="formlogin_heading">Đăng Ký</h3>
-                </div>
+    <div class="formlogin">
+        <div class="formlogin_container">
+            <div class="formlogin_header">
+                <h3 class="formlogin_heading">Đăng Ký</h3>
+            </div>
 
-                <div class="formlogin_form">
+            <div class="formlogin_form">
+                <form onsubmit="a()">
                     <div class="formlogin_login">
-                        <input type="text" class="formlogin_ip" placeholder="Emali hoặc Số Điện Thoại">
+                        <input type="text" name="phone" class="formlogin_ip" required placeholder="Số Điện Thoại">
                     </div>
                     <div class="formlogin_login">
-                        <input type="password" class="formlogin_ip" placeholder="Mật Khẩu">
+                        <input type="password" name="pass" class="formlogin_ip" required placeholder="Mật Khẩu">
                     </div>
                     <div class="formlogin_login">
-                        <input type="password" class="formlogin_ip" placeholder="Nhập Lại Mật Khẩu">
+                        <input type="password" name="cfpass" class="formlogin_ip" required placeholder="Nhập Lại Mật Khẩu">
                     </div>
-                </div>
+            </div>
 
-                <div class="formlogin_nut">
-                    <button class="nut">Đăng Ký</button>
-                </div>
+            <div class="formlogin_nut">
+                <button  class="nut">Đăng Ký</button>
+                </form>
+            </div>
 
-                <div class="them">
-                    <div class="dongke"></div>
-                    <span class="span">Hoặc</span>
-                    <div class="dongke"></div>
-                </div>
-                <div class="formlogin_knbn">
-                    <a href="" class="knn1">
-                        <i class="formlogin_icon fab fa-facebook"></i>
-                        Kết Nối Facebook
-                    </a>
-                    <a href="" class="knn2">
-                        <i class="formlogin_icon fab fa-google"></i>
-                        Kết Nối Google
-                    </a>
-                </div>
-                <div class="formlogin_dieukhoan">
-                    <p class="pformlogin">
-                        Bằng việc đăng kí, bạn đã đồng ý với
-                        <a class="dkdv" href="">điều khoản dịch vụ</a> &
-                        <a href="" class="dkdv">chính sách bảo mật</a>
-                    </p>
-                </div>
-                <div class="formlogin_them1">
-                    <p class="pra">Bạn đã có tài khoản
-                        <a href="login-page.html" class="dky">Đăng Nhập</a>
-                    </p>
-                </div>
+            <div class="them">
+                <div class="dongke"></div>
+                <span class="span">Hoặc</span>
+                <div class="dongke"></div>
+            </div>
+            <div class="formlogin_knbn">
+                <a href="" class="knn1">
+                    <i class="formlogin_icon fab fa-facebook"></i>
+                    Kết Nối Facebook
+                </a>
+                <a href="" class="knn2">
+                    <i class="formlogin_icon fab fa-google"></i>
+                    Kết Nối Google
+                </a>
+            </div>
+            <div class="formlogin_dieukhoan">
+                <p class="pformlogin">
+                    Bằng việc đăng kí, bạn đã đồng ý với
+                    <a class="dkdv" href="">điều khoản dịch vụ</a> &
+                    <a href="" class="dkdv">chính sách bảo mật</a>
+                </p>
+            </div>
+            <div class="formlogin_them1">
+                <p class="pra">Bạn đã có tài khoản
+                    <a href="login-page.html" class="dky">Đăng Nhập</a>
+                </p>
             </div>
         </div>
-    </main>
+    </div>
     <footer class="bg-dark text-center text-white">
         <div class="container p-4">
             <section class="">
@@ -175,7 +176,6 @@
             </div>
         </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
