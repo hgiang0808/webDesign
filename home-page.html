@@ -11,51 +11,56 @@
 </head>
 <body>
 	<header>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<div class="container">
-			<a class="navbar-brand" href="home-page.html">Trang chủ</a>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="home-page.html">Trang chủ</a>
 
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-							Danh sách sản phẩm
-						</a>
-						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Samsung</a></li>
-							<li><a class="dropdown-item" href="#">Apple</a></li>
-							<li><a class="dropdown-item" href="#">Vsmart</a></li>
-							<li><a class="dropdown-item" href="#">Vivo</a></li>
-							<li><a class="dropdown-item" href="#">Oppo</a></li>
-							<li><a class="dropdown-item" href="#">Realme</a></li>
-							<li><a class="dropdown-item" href="product-gallery.html">Google</a></li>
-						</ul>
-					</li>
-				</ul>
-				<div style="margin: 0 15px">
-					<span class="navbar-text">Tìm kiếm</span>
-					<img class="icon-search" src="assets/images/search-icon.png" style="width: 25px">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Danh sách sản phẩm
+							</a>
+
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="#">Samsung</a></li>
+								<li><a class="dropdown-item" href="#">Apple</a></li>
+								<li><a class="dropdown-item" href="#">Vsmart</a></li>
+								<li><a class="dropdown-item" href="#">Vivo</a></li>
+								<li><a class="dropdown-item" href="#">Oppo</a></li>
+								<li><a class="dropdown-item" href="#">Realme</a></li>
+								<li><a class="dropdown-item" href="product-gallery.html">Google</a></li>
+							</ul>
+						</li>
+					</ul>
+
+					<div style="margin: 0 15px">
+						<span class="navbar-text">Tìm kiếm</span>
+						<img class="icon-search" src="assets/images/search-icon.png" style="width: 25px">
+					</div>
+
+					<form class="d-flex" style="width: 30%">
+						<input id="searchInput" class="form-control me-3" type="search" placeholder="Tên sản phẩm..." aria-label="Search">
+					</form>
+
+					<ul class="navbar-right navbar-nav ">
+						<li class="nav-item">
+							<a class="nav-link" href="login-page.html">Tài Khoản</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="cart-page.html">Giỏ hàng</a>
+						</li>
+					</ul>
+
 				</div>
-				<form class="d-flex" style="width: 30%">
-					<input id="searchInput" class="form-control me-3" type="search" placeholder="Tên sản phẩm..." aria-label="Search">
-				</form>
-
-				<ul class="navbar-right navbar-nav ">
-					<li class="nav-item">
-						<a class="nav-link" href="login-page.html">Tài Khoản</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="cart-page.html">Giỏ hàng</a>
-					</li>
-				</ul>
 			</div>
-		</div>
-	</nav>
-</header>
+		</nav>
+	</header>
 
 	<main>
 		<div id="home-banner" class="container mt-3">
@@ -95,36 +100,32 @@
 				<a href="#!"><img src="assets/images/Banner/Rbanner.png" alt="..."></a>
 			</div>
 		</div>
-
 		<div id="home-deal" class="container mt-3">
 			<div class="heading" ><h3>Giảm giá hôm nay</h3></div>
 			<div class="row">
-				<div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
-					<div class="MultiCarousel-inner">
+				<div class="deal-content" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+					<div class="deal-content-inner">
 						<a href="#!">
 							<div class="item">
-								<div class="pad15">
+								<div class="item-content">
 										<img src="https://salt.tikicdn.com/cache/280x280/ts/product/8e/d0/93/43dc2e05448b5db1c95fa4b57058d3d8.jpg" alt="">
 										<p>4216000đ</p>
 										<p>50%off</p>
-
 								</div>
 							</div>
 						</a>
 						<a href="#!">
 							<div class="item">
-								<div class="pad15">
-
+								<div class="item-content">
 										<img src="https://salt.tikicdn.com/cache/280x280/ts/product/3b/11/55/761e7c7bef6f8bbe78dce7616ea79af1.jpg" alt="">
 										<p>3790000đ</p>
 										<p>23%off</p>
-
 								</div>
 							</div>
 						</a>
 						<a href="#!">
 							<div class="item">
-								<div class="pad15">
+								<div class="item-content">
 										<img src="https://salt.tikicdn.com/cache/280x280/ts/product/6b/f1/44/894cfbc05096688061fb11ce3bf7e012.jpg" alt="">
 										<p>24990000đ</p>
 										<p>40% off</p>
@@ -133,7 +134,7 @@
 						</a>
 						<a href="#!">
 							<div class="item">
-								<div class="pad15">
+								<div class="item-content">
 										<img src="https://salt.tikicdn.com/cache/280x280/ts/product/85/3f/31/db76beaf4ad9454a6b816c508be02511.jpg" alt="">
 										<p>6990000đ</p>
 										<p>60% off</p>
@@ -144,7 +145,6 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="container mt-3">
 			<div class="heading"><h3>Gợi ý hôm nay</h3></div>
 			<div id="products" class="row"></div>
@@ -221,6 +221,7 @@
 			</div>
 		</div>
 	</footer>
+
 	<script>
 		var slideIndex = 1;
 		showSlides(slideIndex);
@@ -334,13 +335,9 @@
 				resultProducts.appendChild(ele);
 			});
 		});
-
-		(() => {
-			getProducts();
-		})();
-
-
+		getProducts();
 	</script>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
