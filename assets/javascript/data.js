@@ -120,12 +120,6 @@ const data = [
         "thumbnail": "https://salt.tikicdn.com/cache/280x280/ts/product/79/ca/2f/17d2e0fe1cc0d6798d0adc36cb1af467.jpg"
     },
     {
-        "name": "Tripod Ulanzi MT-08 cho máy ảnh, điện thoại hàng chính hãng.",
-        "brand": "Ulanzi",
-        "price": 239000,
-        "thumbnail": "https://salt.tikicdn.com/cache/280x280/ts/product/9e/48/c5/c9f0ba7482dc4c35e74a2fc47bd8fda7.jpg"
-    },
-    {
         "name": "Điện Thoại Oppo A74 (8GB/128G) - Hàng Chính Hãng",
         "brand": "OPPO",
         "price": 6690000,
